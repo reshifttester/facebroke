@@ -203,6 +203,7 @@ public class ImageManager extends HttpServlet {
 					data = i.get();
 					size = (int) i.getSize();
 					
+					log.info("File Name: ",i.getName());
 					// Try to validate as an image
 					ImageInfo info = Imaging.getImageInfo(data);
 					mimetype = info.getMimeType();
