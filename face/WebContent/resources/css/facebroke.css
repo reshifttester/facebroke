@@ -1,0 +1,106 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	padding-top: 60px;
+	margin-bottom: 60px;
+}
+
+.navbar {
+	background-color: #3b5998;
+}
+
+.navbar-header a {
+	color: #FFF;
+	font-size: 30px;
+}
+
+.navbar .navbar-toggle .icon-bar {
+	background-color: #FFF;
+	width: 30px;
+	height: 2px;
+}
+
+.reg-block {
+	padding-top: 50px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+}
+
+.user-dropdown-toggle, .user-dropdown-toggle:hover, .open>.user-dropdown-toggle
+	{
+	color: #FFF;
+	background-color: #3b5998;
+	font-size: 25px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover, .nav .open>a:focus, .nav .open>a:hover,
+	.nav .open>a {
+	color: #FFF;
+	background-color: #3b5998;
+	text-decoration: underline;
+}
+
+.dropdown-menu>li>a {
+	background-color: #FFF;
+}
+
+.alert-message {
+	position: fixed;
+	top: 50px;
+	z-index: 7000;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	padding-top: 20px;
+	padding-left: 20px;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+}
+
+.reg-block {
+	padding-top: 25px;
+}
+
+.name-sep {
+	font-size: 15px;
+}
+
+.profile-img {
+	width: 160px;
+	height: 160px;
+}
+
+.profile-header-img {
+	width: 25px;
+	height: 25px;
+	margin-top: -5px;
+	margin-bottom: 0;
+	margin-right: 5px;
+}
+
+.profile-img-post {
+	width: 25px;
+	height: 25px;
+	margin-top: -5px;
+	margin-bottom: 0;
+	margin-right: 5px;
+}
+
+.profile-img-comment {
+	width: 20px;
+	height: 20px;
+	margin-top: -5px;
+	margin-bottom: 0;
+	margin-right: 5px;
+}
+
+
