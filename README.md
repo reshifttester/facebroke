@@ -2,7 +2,6 @@
 
 A deliberately hackable social network app
 
-
 ### Requirements
 
 - Docker
