@@ -16,6 +16,14 @@ plugins {
     id 'maven-publish'
 }
 
+sourceSets {
+    main {
+        java {
+            srcDirs 'src'
+        }
+    }
+}
+
 allprojects {
   apply plugin: "com.softwaresecured.reshift"
 }
